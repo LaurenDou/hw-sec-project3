@@ -72,3 +72,14 @@ docker stop fithealth-container
 docker rm fithealth-container
 ```
 
+### Check post and get in terminal
+```bash
+curl -X POST http://localhost:5000/record \
+  -H "Content-Type: application/json" \
+  -d '{"user_id": "user1", "heart_rate": 72, "blood_pressure": "118/76", "notes": "resting"}'
+
+curl http://localhost:5000/record/user1
+```
+
+
+
