@@ -1,1 +1,4 @@
+sqlcipher3
 Flask
+gunicorn
+gevent
