@@ -1,4 +1,5 @@
 # hw-sec-project3
+<<<<<<< HEAD
 ### Build images
 ```bash
 docker build -t fithealth .
@@ -13,7 +14,9 @@ docker run -it --rm   --device /dev/tpmrm0   --device /dev/tpm0   --mount type=b
 ```bash
 sudo dmesg | grep -i tdx
 ```
+<<<<<<< HEAD
 ### Simple Check post and get
+
 ```bash
 curl -X POST http://localhost:5000/record \
   -H "Content-Type: application/json" \

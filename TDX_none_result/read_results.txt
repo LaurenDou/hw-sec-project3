@@ -1,0 +1,47 @@
+
+Summary:
+  Total:	36.6450 secs
+  Slowest:	19.5944 secs
+  Fastest:	0.1639 secs
+  Average:	2.7307 secs
+  Requests/sec:	24.5599
+  
+  Total data:	91560 bytes
+  Size/request:	105 bytes
+
+Response time histogram:
+  0.164 [1]	|
+  2.107 [340]	|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+  4.050 [426]	|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+  5.993 [60]	|■■■■■■
+  7.936 [5]	|
+  9.879 [16]	|■■
+  11.822 [10]	|■
+  13.765 [6]	|■
+  15.708 [2]	|
+  17.651 [2]	|
+  19.594 [4]	|
+
+
+Latency distribution:
+  10% in 0.6113 secs
+  25% in 0.9742 secs
+  50% in 2.4363 secs
+  75% in 3.4490 secs
+  90% in 4.3560 secs
+  95% in 7.5941 secs
+  99% in 14.4393 secs
+
+Details (average, fastest, slowest):
+  DNS+dialup:	0.0007 secs, 0.1639 secs, 19.5944 secs
+  DNS-lookup:	0.0000 secs, 0.0000 secs, 0.0000 secs
+  req write:	0.0001 secs, 0.0000 secs, 0.0023 secs
+  resp wait:	2.7296 secs, 0.1637 secs, 19.5865 secs
+  resp read:	0.0001 secs, 0.0000 secs, 0.0010 secs
+
+Status code distribution:
+  [200]	872 responses
+
+Error distribution:
+  [28]	Get "http://34.41.88.216:5000/record/alice": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+
